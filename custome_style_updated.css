@@ -1,0 +1,48 @@
+ a.nav-link{
+    color:red;
+}
+.header-top-title h2{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.header-top-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-bottom-desc{
+    text-align: center;
+    font-family:Bell MT;
+
+}
+.logo-bottom-desc h1{
+    font-size: 1.6rem;
+}
+.logo-bottom-desc h3{
+    color:  #09203F;
+    font-weight: 900;
+    color: rgb(0, 81, 255);
+    margin-bottom: 10px;
+    text-shadow: 1px 1px black;
+}
+.header-top-dept  h3{
+    font-size: 1.7rem;
+}
+#deadline ul li{
+    font-size: 1.3rem;
+}
+#best-paper p.para-text {
+    font-size: 1.3rem;
+}
+
+#best-paper p,
+.container p.para-text,
+.container ul.list-item li{
+    color: white;
+}
+
+.schedule-details p.para-text strong{
+    font-size: 1.5rem;
+}
