@@ -7,19 +7,16 @@
 
 </head>
 <body>
-   <script>
-  window.onload = () => {
-    // Get the current URL path
-    const currentPath = window.location.pathname;
-    // Convert the path to lowercase
-    const lowerCasePath = currentPath.toLowerCase();
 
-    // If the current URL is not already lowercase, redirect
-    if (currentPath !== lowerCasePath) {
-      // Use replace() to avoid adding the incorrect URL to the browser history
-      window.location.replace(lowerCasePath);
-    }
-  };
-</script>
+    <script>
+        window.onload = () => {
+            currentURL = window.location.href;
+            lowerCaseURL = currentURL.toLowerCase();
+            if (currentURL != lowerCaseURL) {
+                location.replace(lowerCaseURL);
+            }
+        };
+    </script>
+
 </body>
 </html>
