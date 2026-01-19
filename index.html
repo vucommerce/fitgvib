@@ -688,9 +688,26 @@
     <!-- custom js file -->
     <script src="init.min.js" type="text/javascript"></script>
 
+      <script>
+       window.onload = () => {
+         // Get the current URL path
+         const currentPath = window.location.pathname;
+         // Convert the path to lowercase
+         const lowerCasePath = currentPath.toLowerCase();
+     
+         // If the current URL is not already lowercase, redirect
+         if (currentPath !== lowerCasePath) {
+           // Use replace() to avoid adding the incorrect URL to the browser history
+           window.location.replace(lowerCasePath);
+         }
+       };
+     </script>
+
+
 </body>
 
 </html>
+
 
 
 
