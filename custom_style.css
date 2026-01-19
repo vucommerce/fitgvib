@@ -494,8 +494,9 @@ section ul li>p::before {
 
 .upi-qr-wrapper>.payment-info {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    
     display: grid;
     place-items: center;
     transform: translate(-50%, -50%);
@@ -964,3 +965,4 @@ h6 {
 /* ********************* media query ends ************************** */
 
  
+
